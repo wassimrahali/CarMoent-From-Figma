@@ -21,7 +21,7 @@ const CardHeroSection = () => {
             priority
           />
           <div className="absolute inset-0 mb-6 flex flex-col justify-between p-4 sm:p-6 lg:p-10">
-            <div className="space-y-8 sm:space-y-8">
+            <div className="space-y-7 sm:space-y-8">
               <h4 className="text-white font-semibold text-[30px] sm:text-[24px] lg:text-[32px] max-w-xs">
                 The Best Platform for Car Rental
               </h4>
@@ -37,13 +37,13 @@ const CardHeroSection = () => {
               <Image
                 src={WhiteCar}
                 alt="White Car"
-                className="w-44 sm:w-36 md:w-44 lg:w-48"
+                className="w-44 sm:w-36 md:w-44 lg:w-64"
               />
             </div>
           </div>
         </div>
 
-        <div className="relative bg-blue-700 rounded-md h-72 sm:h-80 lg:h-[350px]">
+        <div className="relative bg-blue-700 rounded-md h-64 sm:h-80 lg:h-[350px]">
           <Image
             src={BGL}
             alt="BG Hero"
@@ -51,9 +51,9 @@ const CardHeroSection = () => {
             layout="fill"
             priority
           />
-          <div className="absolute inset-0 flex flex-col justify-between p-4 sm:p-6 lg:p-10">
-            <div className="space-y-2 sm:space-y-3">
-              <h4 className="text-white font-semibold text-[20px] sm:text-[24px] lg:text-[32px] max-w-xs">
+          <div className="absolute inset-0 mb-6 flex flex-col justify-between p-4 sm:p-6 lg:p-10">
+            <div className="space-y-7 sm:space-y-8">
+              <h4 className="text-white font-semibold text-[30px] sm:text-[24px] lg:text-[32px] max-w-xs">
                 Easy way to rent a car at a low price
               </h4>
               <p className="text-white text-[14px] sm:text-[16px] font-medium max-w-xs">
@@ -68,7 +68,7 @@ const CardHeroSection = () => {
               <Image
                 src={GrayCar}
                 alt="Gray Car"
-                className="w-28 sm:w-36 md:w-44 lg:w-48"
+                className="w-44 sm:w-36 md:w-44 lg:w-64"
               />
             </div>
           </div>

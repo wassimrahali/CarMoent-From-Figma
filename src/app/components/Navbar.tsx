@@ -132,11 +132,15 @@ const Navbar = () => {
                   />
                 </svg>
               </form>
+              <Link href="#">
+              <Image src={Profil} alt="Profil" className="cursor-pointer border hover:border-blue-600 rounded-full" />
 
+              </Link>
               <button
                 className="outline-none text-gray-400 block lg:hidden"
                 onClick={() => setMenuState(!menuState)}
               >
+                
                 {menuState ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +173,7 @@ const Navbar = () => {
                   </svg>
                 )}
               </button>
-              <Image src={Profil} alt="Profil" />
+          
             </div>
           </div>
         </div>

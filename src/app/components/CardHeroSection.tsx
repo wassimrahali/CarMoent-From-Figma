@@ -1,77 +1,75 @@
 import React from "react";
-
 import { Plus_Jakarta_Sans } from "next/font/google";
-const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 import Image from "next/image";
 import BG from "../../../public/assets/BG.png";
 import BGL from "../../../public/assets/BGL.png";
 import WhiteCar from "../../../public/assets/whiteCarHero.png";
 import GrayCar from "../../../public/assets/grayCarHero.png";
 
+const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 const CardHeroSection = () => {
   return (
-    <div className={plus_Jakarta_Sans.className}>
-      <div className="mx-auto text-left">
-        <div className="flex flex-col m-5 space-y-5 md:space-y-0 md:space-x-5 md:flex-row md:m-20 ">
-          <div className="md:w-1/2 bg-blue-400 rounded-md">
-            <div className="relative">
-              <Image src={BG} alt="BG Hero" className="object-cover" />
-              <div className="absolute inset-0 ">
-                <div className="">
-                  <div className="w-72 m-10  text-white font-semibold text-[32px]">
-                    <h4>The Best Platform for Car Rental</h4>
-                  </div>
-                  <div className="m-10 space-y-6">
-                    <p className="w-72 text-white text-[16px] font-medium">
-                      Ease of doing a car rental safely and reliably. Of course
-                      at a low price.
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <button className="bg-blue-700 text-white p-3 text-[16px] font-semibold rounded-sm">
-                        Rental Car
-                      </button>
-                      <Image
-                        src={WhiteCar}
-                        alt="BG Hero"
-                        width={350}
-                        className="ml-6"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <div className={`${plus_Jakarta_Sans.className} mx-auto p-4 sm:p-8`}>
+      <div className="grid gap-5 md:gap-8 md:grid-cols-2">
+        <div className="relative bg-blue-400 rounded-md h-64 sm:h-80 lg:h-[350px]">
+          <Image
+            src={BG}
+            alt="BG Hero"
+            className="object-cover w-full h-full rounded-md"
+            layout="fill"
+            priority
+          />
+          <div className="absolute inset-0 mb-6 flex flex-col justify-between p-4 sm:p-6 lg:p-10">
+            <div className="space-y-8 sm:space-y-8">
+              <h4 className="text-white font-semibold text-[30px] sm:text-[24px] lg:text-[32px] max-w-xs">
+                The Best Platform for Car Rental
+              </h4>
+              <p className="text-white text-[14px] sm:text-[16px] font-medium max-w-xs">
+                Ease of doing a car rental safely and reliably. Of course at a
+                low price.
+              </p>
+            </div>
+            <div className="flex items-center justify-between mt-5 sm:mt-10">
+              <button className="bg-blue-700 text-white p-2 sm:p-3 text-[14px] sm:text-[16px] font-semibold rounded-md">
+                Rental Car
+              </button>
+              <Image
+                src={WhiteCar}
+                alt="White Car"
+                className="w-44 sm:w-36 md:w-44 lg:w-48"
+              />
             </div>
           </div>
-          <div className="md:w-1/2 bg-blue-700 rounded-md">
-            <div className="relative">
+        </div>
+
+        <div className="relative bg-blue-700 rounded-md h-72 sm:h-80 lg:h-[350px]">
+          <Image
+            src={BGL}
+            alt="BG Hero"
+            className="object-cover w-full h-full rounded-md"
+            layout="fill"
+            priority
+          />
+          <div className="absolute inset-0 flex flex-col justify-between p-4 sm:p-6 lg:p-10">
+            <div className="space-y-2 sm:space-y-3">
+              <h4 className="text-white font-semibold text-[20px] sm:text-[24px] lg:text-[32px] max-w-xs">
+                Easy way to rent a car at a low price
+              </h4>
+              <p className="text-white text-[14px] sm:text-[16px] font-medium max-w-xs">
+                Providing cheap car rental services and safe and comfortable
+                facilities.
+              </p>
+            </div>
+            <div className="flex items-center justify-between mt-5 sm:mt-10">
+              <button className="bg-blue-400 text-white p-2 sm:p-3 text-[14px] sm:text-[16px] font-semibold rounded-md">
+                Rental Car
+              </button>
               <Image
-                src={BGL}
-                alt="BG Hero"
-                className="h-auto w-full object-cover "
+                src={GrayCar}
+                alt="Gray Car"
+                className="w-28 sm:w-36 md:w-44 lg:w-48"
               />
-              <div className="absolute inset-0">
-                <div className="w-72 m-10  text-white font-semibold text-[32px]">
-                  <h4>Easy way to rent a car at a low price</h4>
-                </div>
-                <div className="m-10 space-y-6">
-                  <p className="w-72 text-white text-[16px] font-medium">
-                    Providing cheap car rental services and safe and comfortable
-                    facilities.
-                  </p>
-                  <div className="flex items-center justify-between">
-                      <button className="bg-blue-400 text-white p-3 text-[16px] font-semibold rounded-sm">
-                        Rental Car
-                      </button>
-                      <Image
-                        src={GrayCar}
-                        alt="BG Hero"
-                        width={300}
-                        className="ml-6"
-                      />
-                    </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

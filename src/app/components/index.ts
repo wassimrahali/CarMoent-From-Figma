@@ -1,3 +1,3 @@
 import CardHeroSection from './CardHeroSection';
-
-export { CardHeroSection };
+import Navbar from './Navbar';
+export { CardHeroSection,Navbar };

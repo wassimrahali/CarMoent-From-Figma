@@ -12,7 +12,7 @@ import GrayCar from "../../../public/assets/grayCarHero.png";
 const CardHeroSection = () => {
   return (
     <div className={plus_Jakarta_Sans.className}>
-      <div className="mx-auto my-32 text-left">
+      <div className="mx-auto text-left">
         <div className="flex flex-col m-5 space-y-5 md:space-y-0 md:space-x-5 md:flex-row md:m-20 ">
           <div className="md:w-1/2 bg-blue-400 rounded-md">
             <div className="relative">

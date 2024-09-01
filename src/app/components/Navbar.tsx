@@ -37,7 +37,7 @@ const Navbar = () => {
               <ul className="mt-12 space-y-5 lg:flex lg:space-x-6 lg:space-y-0 lg:mt-0">
                 {navigation.map((item, idx) => (
                   <li key={idx} className="text-fill hover:text-gray-900">
-                    <a href={item.path}>{item.title}</a>
+                    <Link href={item.path}>{item.title}</Link>
                   </li>
                 ))}
               </ul>

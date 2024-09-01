@@ -3,6 +3,7 @@ import Logo from "../../../public/assets/Logo.svg";
 import Image from "next/image";
 import { footerNavs } from "../constants/index";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import Link from "next/link";
 
 const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const Footer = () => {
@@ -28,12 +29,12 @@ const Footer = () => {
                 </h4>
                 {item.items.map((el, idx) => (
                   <li key={idx}>
-                    <a
+                    <Link
                       href={el.href}
                       className="hover:underline text-[16px] font-medium hover:text-indigo-600"
                     >
                       {el.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -47,10 +48,10 @@ const Footer = () => {
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
               <li className=" flex items-center justify-center text-[14px] font-semibold  text-slate-950">
-                <a href="javascript:void()">Privacy & Policy</a>
+                <Link href="#">Privacy & Policy</Link>
               </li>
               <li className="flex items-center justify-center text-[14px] font-semibold  text-slate-950">
-                <a href="javascript:void()">Terms & Condition</a>
+                <Link href="#">Terms & Condition</Link>
               </li>
             </ul>
           </div>

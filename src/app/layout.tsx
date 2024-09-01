@@ -18,12 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="relative">
-      <body className={plus_Jakarta_Sans.className}>
+    <html suppressHydrationWarning lang="en" >
+      <body className={plus_Jakarta_Sans.className} suppressHydrationWarning={true}>
         <Navbar />
         {children}
-        </body>
         <Footer />
+        </body>
     </html>
   );
 }

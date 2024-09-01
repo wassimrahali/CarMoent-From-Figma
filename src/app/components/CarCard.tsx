@@ -17,7 +17,7 @@ interface CarCardProps {
 
 const CarCard: React.FC<CarCardProps> = ({ car }) => {
   return (
-    <div className="w-full min-h-[320px] md:w-1/5 bg-white rounded-md flex flex-col p-4">
+    <div className="w-full min-h-[320px] md:w-1/4 bg-white rounded-md flex flex-col p-4">
       <div className="flex flex-col h-full justify-between">
         <div className="text-left space-y-4 mb-4">
           <div className="flex items-center justify-between">

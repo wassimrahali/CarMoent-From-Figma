@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Inter } from "next/font/google";
 import Navbar from "./components/Navbar";
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "./components/Footer";
+import { Plus_Jakarta_Sans } from "next/font/google";
+
+const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,10 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html className="relative">
-      <body className={inter.className}>
+      <body className={plus_Jakarta_Sans.className}>
         <Navbar />
         {children}
         </body>
+        <Footer />
     </html>
   );
 }

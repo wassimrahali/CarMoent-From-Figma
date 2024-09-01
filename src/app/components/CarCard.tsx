@@ -7,6 +7,7 @@ import huile from "../../../public/assets/huile.svg";
 import vitesse from "../../../public/assets/vitesse.svg";
 import people from "../../../public/assets/people.svg";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import Button from "./Button";
 
 const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -60,7 +61,7 @@ const CarCard: React.FC<CarCardProps> = ({ car }) => {
               ${car.price}
               <span className="text-gray-600 text-[13px]">/day</span>
             </p>
-            <button className="bg-blue-700 text-white p-2 sm:p-3 text-[16px] font-semibold rounded-md">
+            <button className="bg-blue-700 text-white p-2 sm:p-3 text-[12px] font-semibold rounded-md">
               Rent Car
             </button>
           </div>

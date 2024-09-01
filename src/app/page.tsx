@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { CardHeroSection } from "./components";
 
 import CarList from "./components/CarList";

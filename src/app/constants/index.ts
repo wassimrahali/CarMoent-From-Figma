@@ -193,6 +193,12 @@ export const cars: CarProps[] = [
     
 ];
 
+export const navigation = [
+    { title: "Customers", path: "#" },
+    { title: "Careers", path: "#" },
+    { title: "Guides", path: "#" },
+    { title: "Partners", path: "#" },
+  ];
 
 export const footerNavs = [
     {

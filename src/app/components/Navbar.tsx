@@ -6,18 +6,13 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import Logo from "../../../public/assets/Logo.svg";
 import Profil from "../../../public/assets/Profil.svg";
 import Link from "next/link";
-
+import {navigation} from '../constants/index'
 const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 const Navbar = () => {
   const [menuState, setMenuState] = useState(false);
 
-  const navigation = [
-    { title: "Customers", path: "#" },
-    { title: "Careers", path: "#" },
-    { title: "Guides", path: "#" },
-    { title: "Partners", path: "#" },
-  ];
+
 
   return (
     <div className={plus_Jakarta_Sans.className}>

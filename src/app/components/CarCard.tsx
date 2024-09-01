@@ -1,13 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import { CarProps } from "../types";
-import heart from "../../../public/assets/Heart.svg";
-import car from "../../../public/assets/Car3.png";
 import huile from "../../../public/assets/huile.svg";
 import vitesse from "../../../public/assets/vitesse.svg";
 import people from "../../../public/assets/people.svg";
 import { Plus_Jakarta_Sans } from "next/font/google";
-import Button from "./Button";
 
 const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -37,7 +34,7 @@ const CarCard: React.FC<CarCardProps> = ({ car }) => {
           />
         </div>
         <div className="flex-grow flex flex-col justify-between">
-          <div className="flex items-center   text-gray-500 justify-between text-[12px] mb-4">
+          <div className="flex items-center text-gray-500 justify-between text-[12px] mb-4">
             <div className="flex items-center space-x-1">
               <Image src={huile} alt="fuel icon" width={16} height={16} />
               <p>{car.fuel_type}</p>

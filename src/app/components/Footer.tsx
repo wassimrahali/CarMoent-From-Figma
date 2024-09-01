@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="flex-1">
             <div className="max-w-xs">
               <Image src={Logo} alt="Logo" className="w-32" />
-              <p className="leading-relaxed  text-slate-950 mt-2 text-[16px] font-medium">
+              <p className="leading-relaxed  text-fill mt-12 text-[16px] font-medium">
                 Our vision is to provide convenience and help increase your
                 sales business.
               </p>

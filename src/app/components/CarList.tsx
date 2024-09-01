@@ -8,8 +8,8 @@ const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const CarList: React.FC<{ cars: CarProps[] }> = ({ cars }) => {
   return (
     <div className={` ${plus_Jakarta_Sans.className}`}>
-      <h2 className="m-10 text-slate-800 text-[16px] font-semibold">
-        Recommended Caar
+      <h2 className="m-10 text-fill text-[16px] font-semibold">
+        Recommended Car
       </h2>
       <div className="flex flex-wrap gap-6 px-20 py-5 justify-center">
         {cars.map((car) => (

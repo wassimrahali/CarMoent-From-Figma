@@ -190,25 +190,7 @@ export const cars: CarProps[] = [
         image: getRandomCarImage(),
         heart: getRandomHeartIcon()
     },
-    {
-        id: 10,
-        make: "Aston Martin",
-        model: "Vantage",
-        year: 2020,
-        class: "Luxury",
-        city_mpg: 18,
-        highway_mpg: 24,
-        drive: "RWD",
-        transmission: "Manual",
-        combination_mpg: 20,
-        cylinders: 8,
-        displacement: "4.0L",
-        fuel_type: "Gasoline",
-        seats: 2,
-        price: '230',
-        image: getRandomCarImage(),
-        heart: getRandomHeartIcon()
-    },
+    ,
 ];
 
 

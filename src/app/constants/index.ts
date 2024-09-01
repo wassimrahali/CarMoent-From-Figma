@@ -190,7 +190,7 @@ export const cars: CarProps[] = [
         image: getRandomCarImage(),
         heart: getRandomHeartIcon()
     },
-    ,
+    
 ];
 
 

@@ -1,11 +1,11 @@
 import React from "react";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import Image from "next/image";
 import BG from "../../../public/assets/BG.png";
 import BGL from "../../../public/assets/BGL.png";
 import WhiteCar from "../../../public/assets/whiteCarHero.png";
 import GrayCar from "../../../public/assets/grayCarHero.png";
 
+import { Plus_Jakarta_Sans } from "next/font/google";
 const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 const CardHeroSection = () => {
@@ -37,7 +37,7 @@ const CardHeroSection = () => {
               <Image
                 src={WhiteCar}
                 alt="White Car"
-                className="w-44 sm:w-36 md:w-44 lg:w-64"
+                className="w-44 sm:w-64 md:w-44 lg:w-72"
               />
             </div>
           </div>
@@ -68,7 +68,7 @@ const CardHeroSection = () => {
               <Image
                 src={GrayCar}
                 alt="Gray Car"
-                className="w-44 sm:w-36 md:w-44 lg:w-64"
+                className="w-44 sm:w-56 md:w-44 lg:w-64"
               />
             </div>
           </div>

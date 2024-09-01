@@ -1,10 +1,20 @@
+import React from "react";
 import Image from "next/image";
 import { CardHeroSection } from "./components";
 
-export default function Home() {
+import CarList from "./components/CarList";
+import {cars} from './constants/index'
+
+
+const Home = () => {
+
+
   return (
-    <main >
+    <main>
       <CardHeroSection />
+      <CarList cars={cars} />
     </main>
   );
-}
+};
+
+export default Home;

@@ -5,6 +5,8 @@ import CarList from "./components/CarList";
 import {cars} from './constants/index'
 import PopularCar from "./components/PopularCar";
 import FormFilter from "./components/FormFilter";
+import SideBar from "./components/SideBar";
+import CarListSideBar from "./components/CarListSideBar";
 
 
 const Home = () => {
@@ -12,10 +14,11 @@ const Home = () => {
 
   return (
     <main>
-      <CardHeroSection />
+     <CardHeroSection />
       <FormFilter />
       <PopularCar cars={cars} />
       <CarList cars={cars} />
+      
     </main>
   );
 };

@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className="bg-white border-b border-stroke">
         <div className="flex items-center space-x-8 py-3 px-4 max-w-screen-xl mx-auto md:px-8">
           <div className="flex-none lg:flex-initial">
-            <Link href="#">
+            <Link href="/">
               <Image src={Logo} width={120} height={50} alt="Logo" />
             </Link>
           </div>

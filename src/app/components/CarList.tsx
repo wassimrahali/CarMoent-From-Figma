@@ -1,8 +1,8 @@
 import React from "react";
 import CarCard from "./CarCard";
 import { CarProps } from "../types";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import Button from "./Button";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
 const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const CarList: React.FC<{ cars: CarProps[] }> = ({ cars }) => {
@@ -15,6 +15,7 @@ const CarList: React.FC<{ cars: CarProps[] }> = ({ cars }) => {
         {cars.map((car) => (
           <CarCard key={car.id} car={car} />
         ))}
+        
       </div>
       <div className="m-10">
       <Button />

@@ -31,7 +31,7 @@ const CarCard: React.FC<CarCardProps> = ({ car }) => {
             width={300}
             height={200}
             className="mb-4 object-cover"
-          />
+            />
         </div>
         <div className="flex-grow flex flex-col justify-between">
           <div className="flex items-center text-gray-500 justify-between text-[12px] mb-4">
@@ -45,12 +45,13 @@ const CarCard: React.FC<CarCardProps> = ({ car }) => {
                 alt="transmission icon"
                 width={16}
                 height={16}
-              />
+                />
               <p>{car.transmission}</p>
             </div>
             <div className="flex items-center space-x-1">
               <Image src={people} alt="seats icon" width={16} height={16} />
               <p>{car.seats} People</p>
+                {/* {car.type} */}
             </div>
           </div>
           <div className="flex items-center justify-between">

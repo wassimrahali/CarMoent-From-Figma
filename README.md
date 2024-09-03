@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0fd557ca-d862-4ab9-ad0d-6d79a850ff8e" alt="Your Image Description">
 </p>
-
+![screencapture-localhost-3000-2024-09-02-17_21_04](https://github.com/user-attachments/assets/362d5691-a295-4c29-940d-1aabf57f2deb)
 ![screencapture-localhost-3000-cars-2024-09-02-17_22_33](https://github.com/user-attachments/assets/51fe49c0-465c-4247-8d22-57354c832198)
 ![screencapture-localhost-3000-cars-2024-09-02-17_22_17](https://github.com/user-attachments/assets/8467ed80-8041-46cf-b9ee-bd8a6353bdf0)
 
@@ -11,8 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, run the development server:
-![screencapture-localhost-3000-2024-09-02-17_21_04](https://github.com/user-attachments/assets/362d5691-a295-4c29-940d-1aabf57f2deb)
-![Enregistrement2024-09-02174324-ezgif com-optimize](https://github.com/user-attachments/assets/0fd557ca-d862-4ab9-ad0d-6d79a850ff8e)
+
 
 
 ```bash

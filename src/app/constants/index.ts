@@ -2,7 +2,6 @@ import { CarProps } from "../types";
 
 const heartIcons = ["/assets/Heart.svg", "/assets/UnLikedHeart.svg"];
 const carImage = [
-    "/assets/car3.png",
     "/assets/car5.png",
     "/assets/car6.png",
     "/assets/car7.png",

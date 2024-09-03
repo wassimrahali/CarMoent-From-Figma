@@ -1,14 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Useful Link
 
+Check out this [resource](https://shorturl.at/5WRBN) for UI Figma Design .
+
+
+## SCREENSHOTS or  You can also visite the link of site [here](https://car-moent-from-figma.vercel.app/) 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0fd557ca-d862-4ab9-ad0d-6d79a850ff8e" alt="Your Image Description">
 </p>
-![screencapture-localhost-3000-2024-09-02-17_21_04](https://github.com/user-attachments/assets/362d5691-a295-4c29-940d-1aabf57f2deb)
-![screencapture-localhost-3000-cars-2024-09-02-17_22_33](https://github.com/user-attachments/assets/51fe49c0-465c-4247-8d22-57354c832198)
-![screencapture-localhost-3000-cars-2024-09-02-17_22_17](https://github.com/user-attachments/assets/8467ed80-8041-46cf-b9ee-bd8a6353bdf0)
+
+![screencapture-localhost-3000-2024-09-02-17_21_04](https://github.com/user-attachments/assets/c4c6468c-30ac-4c14-91b7-bd5ec6a5f014)
+![screencapture-localhost-3000-cars-2024-09-02-17_22_33](https://github.com/user-attachments/assets/0aa44d33-423a-43ad-92a1-8971bd490256)
+![screencapture-localhost-3000-cars-2024-09-02-17_22_17](https://github.com/user-attachments/assets/77910308-7d98-4500-8ceb-604d30339bfd)
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
 ## Getting Started
+
 
 First, run the development server:
 
